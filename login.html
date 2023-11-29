@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Cart - Exclusive E Commerce Website</title>
+    <title>Home - Exclusive E Commerce Website</title>
 </head>
 <body>
 
@@ -25,7 +26,7 @@
                 <li class="li nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="li nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="li nav-item"><a href="#" class="nav-link">Contact</a></li>
-                <li class="li nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+                <li class="li nav-item"><a href="signup.html" class="nav-link">Sign Up</a></li>
             </ul>
             <div class="nav-items">
                 <form action="" class="nav-form">
@@ -43,20 +44,27 @@
     </nav>
 
     <section class="section">
-        <div class="container">
-            <div class="cart">
-                <div class="cart-header">
-                    <p>Product ID</p>
-                    <p>Product Title</p>
-                    <p>Product Image</p>
-                    <p>Price</p>
-                    <p>Delete</p>
+        <div class="auth-container">
+            <div class="auth-content">
+                <h2>Login to Your Account</h2>
+                <p>Enter your details below</p>
+                <form action="">
+                    <div class="auth-input">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="auth-input">
+                        <input type="password" placeholder="Password">
+                    </div>
+                </form>
+                <div class="form-button">
+                    <button>Login</button>
                 </div>
-                <div class="cart-items">
+                <div class="form-span">
+                    <span>Don't have an Account? <a href="signup.html">Resgiter</a></span>
                 </div>
             </div>
-            <div class="cart-total">
-                <h4>$1000</h4>
+            <div class="auth-img">
+                <img src="image/auth-image.png" alt="">
             </div>
         </div>
     </section>
@@ -91,6 +99,6 @@
         </div>
     </footer>
 
-    <script src="cart.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
